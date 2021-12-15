@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-01T18:29:34 IST" name="Suite" finished-at="2021-12-01T18:30:01 IST" duration-ms="27410">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.swiggy.tests.TestRunner@4a11eb84]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-12-01T18:29:34 IST" name="Test" finished-at="2021-12-01T18:30:01 IST" duration-ms="27410">
+      <class name="in.swiggy.tests.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:in.swiggy.tests.TestRunner@4a11eb84]" started-at="2021-12-01T18:29:34 IST" name="setUpClass" finished-at="2021-12-01T18:29:34 IST" duration-ms="368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@16736040]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.swiggy.tests.TestRunner@4a11eb84]" started-at="2021-12-01T18:29:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-01T18:30:01 IST" duration-ms="26982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["selecting the location searching for an item selcting the restarunt and accessing help"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[swiggy usage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:in.swiggy.tests.TestRunner@4a11eb84]" started-at="2021-12-01T18:30:01 IST" name="tearDownClass" finished-at="2021-12-01T18:30:01 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- in.swiggy.tests.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
